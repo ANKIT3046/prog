@@ -48,4 +48,5 @@ for i in range(1,len(l)):
         initial_date=next_date(initial_date)
 
 ordered = dict(OrderedDict(sorted(ordered.items(), key=lambda t: t[0])))
+
 print(ordered)
